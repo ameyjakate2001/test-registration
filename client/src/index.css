@@ -1,0 +1,215 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.link {
+  color: #fff;
+}
+
+
+.header {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  padding: 0;
+  margin: 0;
+}
+
+.header ul li {
+  padding: 10px;
+  transition: all 0.6s ease-in;
+}
+
+.header ul li a {
+  font-size: 15px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  color: white;
+  margin: 10px;
+  background: #167bff;
+}
+
+#submitForm {
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  font-weight: 400;
+  border-radius: 15px;
+  padding: 40px 55px 45px 55px;
+  font-family: 'Fira Sans', sans-serif;
+}
+.otpBox{
+  display: flex;
+  justify-content: center;
+}
+.otpBox span{
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  box-shadow: #ffffff 5px;
+  background: #dad1d1;
+}
+.otpBox span input{
+ 
+ border: none;
+ outline: 0;
+}
+
+#submitForm label {
+  font-weight: bold;
+}
+
+#submitForm h3 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+
+.tag {
+  display: flex;
+  justify-content: flex-end;
+}
+select {
+  appearance: none;
+  background-color: transparent;
+  padding: 0.2em 0.3em;
+  margin: 0;
+  width: 100%;
+}
+.tab p{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tab p span {
+  background: #dad1d1;
+  padding: 10px;
+  margin: 5px;
+}
+.tab p span:hover{
+  cursor: pointer;}
+
+
+    /* TABLE SECTION */
+    .table-dabba {
+      padding: 100px;
+      position: relative;
+    }
+  
+    .content {
+      max-width: 700px;
+      margin: auto;
+      text-align: center;
+    }
+  
+    .content h6 {
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 10px;
+    }
+  
+    .content h3 {
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  
+    .content p {
+      font-size: 18px;
+      margin-bottom: 50px;
+    }
+  
+    .color {
+      color: #E04D30;
+    }
+  
+    .content-table {
+      border-collapse: collapse;
+      min-width: 100%;
+      margin: auto;
+    }
+  
+    td,
+    th {
+      padding: 10px;
+    }
+  
+    .content-table thead tr {
+      color: #1099EE;
+      font-size: 18px;
+      font-weight: 700;
+    }
+  
+    .content-table thead tr:nth-child(1) {
+      background-color: #F1FAFF;
+  
+    }
+  
+    .content-table thead tr:nth-child(2),
+    td {
+      text-align: left;
+      border-width: 2px 1px 1px 1px;
+      border-style: solid;
+      border-color: #E3F4FF;
+  
+    }
+  
+    .content-table tbody tr:nth-child(even) {
+      background-color: #F1FAFF;
+    }
+  
+    .content-table tbody tr td:nth-child(2) {
+      color: #4CD964;
+    }
+  
+    .content-table tbody tr td:nth-child(3) {
+      color: #FD5656;
+    }
+  
+    .content-table tbody tr td {
+      color: #292B2C;
+      font-weight: 600;
+      font-size: 16px;
+      padding: 16px;
+      gap: 8px;
+    }
